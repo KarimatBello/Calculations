@@ -1,0 +1,22 @@
+import java.util.Scanner;
+//class
+public class Main
+{
+//main method
+   public static void main(String[] args) {
+   //Scanner is used to get input from the user
+       Scanner scnr = new Scanner(System.in);
+       //printing Enter a number
+       System.out.println("Enter a number:");
+       //getting input from the user
+       int a = scnr.nextInt();
+       //printing Enter another number
+       System.out.println("Enter another number:");
+       //getting input from the user
+       int b = scnr.nextInt();
+       //printing Sum : a+b
+       System.out.println("\n\nSum : "+ (a+b));
+       //printing Product : a*b
+       System.out.println("Product : "+ (a*b));
+   }
+}
